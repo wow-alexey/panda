@@ -1,0 +1,264 @@
+@media (max-width: 1291px) {
+  .algorithm figure {
+    min-height: 210px;
+  }
+}
+
+@media (max-width: 1195px) {
+  header nav {
+    margin-left: 5%;
+    li {
+      margin: 0 15px;
+    }
+  }
+  .contacts-block {
+    width: 700px;
+    height: 390px;
+  }
+  .algorithm figure {
+    border: none;
+  }
+  .description {
+    margin-top: 1.5%;
+  }
+}
+
+@media (max-width: 1029px) {
+  .points {
+    padding: 0 100px;
+  }
+  .algorithm {
+    figure {
+      img {
+        max-height: 80px;
+      }
+    }
+  }
+  .next {
+    max-height: 45px;
+  }
+  .corusel {
+    width: 70%;
+  }
+  .options {
+    img {
+      max-height: 90px;
+    }
+  }
+}
+
+@media (max-width: 1000px) {
+  header nav li {
+    margin: 0 10px;
+  }
+  h3 {
+    font-size: 1.8em;
+  }
+  .description {
+    p {
+      font-size: 1.1em;
+      max-width: 45%;
+    }
+  }
+  form {
+    width: 40%;
+    height: 250px;
+  }
+  input {
+    font-size: 0.8em;
+  }
+  .comment-block {
+    img {
+      display: inline-block;
+      border-radius: 100%;
+      max-width: 130px;
+      max-height: 130px;
+    }
+  }
+  .information {
+    p {
+      font-size: 1em;
+      line-height: 1.2;
+    }
+  }
+  .contacts-block {
+    width: 65%;
+    height: 300px;
+  }
+}
+
+@media (max-width: 950px) {
+  #nav {
+    display: none;
+  }
+  header {
+    text-align: right;
+    img {
+      display: none;
+    }
+    .social-media {
+      display: none;
+    }
+  }
+  .slicknav_menu {
+    display: inline-block;
+    li {
+      display: block;
+      margin: 0;
+      margin-top: 8%;
+      & + li {
+
+      }
+    }
+  }
+}
+
+@media (max-width: 829px) {
+  .points {
+    figure {
+      margin: 10px;
+    }
+  }
+  .algorithm {
+    width: 75%;
+    border-radius: 35px;
+    margin: 1% auto 0 auto;
+    flex-direction: column;
+    figure {
+      min-height: 0;
+      height: auto;
+    }
+    figcaption {
+      max-width: 250px;
+    }
+  }
+  .next {
+    transform: rotate(90deg);
+  }
+  form {
+    width: 48%;
+  }
+  .comment-block {
+    img {
+      max-width: 80px;
+      max-height: 80px;
+    }
+  }
+  .photo {
+    height: 300px;
+    img {
+      height: 300px;
+      width: 200px;
+    }
+  }
+}
+
+@media (max-width: 768px) {
+  .corusel {
+    height: 300px;
+    img {
+      height: 285px;
+    }
+  }
+}
+
+@media (max-width: 649px) {
+  header{
+    padding: 1% 2%;
+  }
+  .product-block {
+    padding: 0 1%;
+  }
+  .description p {
+    font-size: 1em;
+    max-width: 45%;
+  }
+  .points {
+    font-size: 1em;
+    padding: 0 5%;
+    img {
+      max-width: 50px;
+    }
+    figure {
+      max-width: 25%;
+    }
+  }
+  .algorithm {
+    figure {
+      padding: 1%;
+      img {
+        max-height: 40px;
+      }
+    }
+  }
+  .options {
+    flex-direction: column;
+    img {
+      max-height: 65px;
+    }
+  }
+}
+
+@media (max-width: 550px) {
+  .description {
+    flex-direction: column;
+    p {
+      max-width: 90%;
+    }
+  }
+  form {
+    width: 80%;
+    margin-top: 3%;
+  }
+  button {
+    width: 30%;
+  }
+  .corusel {
+    height: 190px;
+    img {
+      height: 179px;
+    }
+    .slick-dots button {
+      width: 10px;
+      height: 10px;
+    }
+    .slick-arrow {
+      font-size: 30px;
+    }
+  }
+  #toTop {
+    font-size: 30px;
+  }
+  .contacts-block {
+    width: 75%;
+    height: 235px;
+    span {
+      font-size: 1em;
+    }
+    h5 {
+      font-size: 1.3em;
+      margin-bottom: 5%;
+    }
+    .social-media {
+      margin-top: 3%;
+      li i {
+        font-size: 1.5em;
+      }
+    }
+  }
+}
+
+@media (max-width: 400px) {
+  .comment-block {
+    max-width: 100%;
+  }
+}
+
+@media (max-width: 320px) {
+  .points {
+    figure {
+      margin: 0;
+      max-width: 65%;
+    }
+  }
+}
